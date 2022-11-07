@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="js/register.js"></script>
+
+
+
+</head>
+<body>
+    <div class="signupFrm">
+        <form action="http://localhost/SA/php/register.php" id="signupForm" class="form" method="post" img="">
+          <h1 class="title">Sign up</h1>
+          <div class="inputContainer">
+            <label for="" class="label">User Name :</label>
+            <input type="text" class="input"  name="username" id="username" placeholder="Username">
+          </div>
+          <div name="result" id="result"> </div>
+
+          <div class="inputContainer">
+            <label for="" class="label">Email :</label>
+            <input type="email" class="input" id="email" name="email"  placeholder="Email">
+          </div>
+
+          <div class="inputContainer">
+            <label class="label">Password :</label>
+            <input type="password" class="input"  name="password" id="password" placeholder="Password">
+          </div>
+    
+          <div class="inputContainer">
+            <label class="label">Confirm Password :</label>
+            <input type="password" class="input" id="confirm_password" name="confirm_password" placeholder="confirmPassword" >
+          </div>
+      
+          <input type="submit" class="submitBtn" value="Sign up"/>
+          <p class="bottom">
+            Already have an account? <a href="login.html">Login Here</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+</body>
+
+
+
+</html>
